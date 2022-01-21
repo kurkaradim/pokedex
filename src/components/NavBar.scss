@@ -1,0 +1,24 @@
+.navbar {
+    height          : 50px;
+    background-color: black;
+    margin          : 0;
+    padding         : 0;
+}
+
+.navLinks {
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: flex-start;
+}
+
+.link {
+    text-decoration: none;
+    color          : white;
+    font-size      : 26px;
+    margin         : 0 40px;
+}
+
+.link:hover {
+    color: blue;
+}
